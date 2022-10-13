@@ -47,7 +47,8 @@ button {
 /*header*/
 
 .header {
-    background-color: #ffffff;   
+    background-color: #ffffff; 
+    border-bottom: #ECECEC 1px;  
 }
 
 .container {
@@ -62,14 +63,14 @@ button {
     display: flex;
     align-items: center;
 }
-  
-.header--nav-list {
-    display: flex;
+
+.header-nav {
+    display:flex;
 }
+
 
 .header--nav-list-logo {
     display:block;
-    margin-right: 95px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -81,8 +82,6 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-
-    margin-left: 5px;
 }
 
 .logo2 {
@@ -92,6 +91,10 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
+}
+
+.header--nav-list {
+    display:flex;
 }
 
 .header--nav-link {
@@ -118,27 +121,27 @@ button {
     margin-right: 50px;
 }
 
-.header--nav-list-link:last child {
+.header--nav-list-link:last-child {
     margin-right: 0;
 }
 
 .header--contacts-list {
    display: flex;
-   margin-left: 200px;
+   margin-left: auto;
 }
 
 .header--contacts-list-link {
     margin-right: 50px;
 }
 
-.header--contacts-list-link:last child {
+.header--contacts-list-link:last-child {
     margin-right: 0;
 }
 
 .header--contacts-links {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 
@@ -170,7 +173,7 @@ button {
     color: #FFFFFF;
     font-weight: 900;
 
-    width: 695px;
+    max-width: 696px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -272,7 +275,8 @@ button {
 
 .team {
     background-color:  #F5F4FA;
-    padding-bottom: 95px;
+    padding-bottom: 94px;
+    padding-top: 94px;
 }
 
 .team-list {
@@ -283,7 +287,6 @@ button {
 }
 
 .team-title {
-    padding-top: 95px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -314,6 +317,8 @@ button {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: center;
+
+    padding-bottom: 30px;
 }
 
 
@@ -325,6 +330,7 @@ button {
 }
 
 .footer-logo {
+    display: inline-block;
     margin-bottom: 20px;
 }
 .footer-logo1 {
@@ -334,7 +340,6 @@ button {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-    margin-left: 5px;
 }
 
 .footer-logo2 {
@@ -351,6 +356,9 @@ button {
     padding-bottom: 60px;
 }
 
+.address-links {
+    margin-bottom: 8px;
+}
 .address-map {
     font-style: normal;
     font-weight: 400;
@@ -374,8 +382,8 @@ button {
 }
 
 .portfolio2 {
-    padding-top: 95px;
-    padding-bottom: 95px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio2-filter {
