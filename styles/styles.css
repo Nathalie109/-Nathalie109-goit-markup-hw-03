@@ -60,19 +60,16 @@ button {
 }
 
 .main-nav {
-    display: flex;
+    display:flex;
     align-items: center;
 }
 
-.header-nav {
-    display:flex;
-}
-
-
 .header--nav-list-logo {
-    display:block;
-    padding-top: 25px;
+    display: block;
+    padding-top: 24px;
     padding-bottom: 25px;
+    margin-right: 93px;
+   
 }
 
 .logo1 {
@@ -94,7 +91,7 @@ button {
 }
 
 .header--nav-list {
-    display:flex;
+    display: flex;
 }
 
 .header--nav-link {
@@ -106,6 +103,17 @@ button {
     font-style: normal;
 }
 
+.header--nav-list-link + .header--nav-list-link { 
+    margin-left: 50px;
+}
+
+.header--nav-list-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
 .header--nav-link:hover {
     color: #2196F3;
 }
@@ -114,29 +122,22 @@ button {
     color: #2196F3;
 }
 
-.header--nav-list-link {
-    display: block;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-right: 50px;
-}
-
-.header--nav-list-link:last-child {
-    margin-right: 0;
-}
-
 .header--contacts-list {
-   display: flex;
-   margin-left: auto;
+    display: flex;
+    margin-left: auto;
+}
+
+
+.header--contacts-list-link + .header--contacts-list-link {
+    margin-left: 30px;
 }
 
 .header--contacts-list-link {
-    margin-right: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
-.header--contacts-list-link:last-child {
-    margin-right: 0;
-}
 
 .header--contacts-links {
     font-weight: 500;
@@ -144,8 +145,6 @@ button {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
-
-    display: block;
 }
 
 .header--contacts-links:hover {
