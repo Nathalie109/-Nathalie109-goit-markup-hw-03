@@ -48,7 +48,7 @@ button {
 
 .header {
     background-color: #ffffff; 
-    border-bottom: #ECECEC 1px;  
+    border-bottom: 1px solid#ECECEC;  
 }
 
 .container {
@@ -236,7 +236,6 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #757575;
 }
 
@@ -326,6 +325,7 @@ button {
 .footer {
     background: #2F303A;
     padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-logo {
@@ -351,10 +351,6 @@ button {
 }
 
 
-.address-list {
-    padding-bottom: 60px;
-}
-
 .address-links {
     margin-bottom: 8px;
 }
@@ -377,7 +373,10 @@ button {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    margin-bottom: 30px;
+}
+
+.address-links + .address-links {
+    margin-bottom: 9px;
 }
 
 .portfolio2 {
@@ -389,8 +388,8 @@ button {
     justify-content: center;
 
     display: flex;
-
-    margin-bottom: 35px;
+    gap: 8px;
+    margin-bottom: 50px;
 }
 
 .portfolio2-button {
@@ -451,6 +450,11 @@ button {
     color: #757575;
 }
 
+.portfolio2-item {
+    border: 1px solid #EEEEEE;
+    border-top: none;
+    padding: 24px 20px;
+}
 
 
 
